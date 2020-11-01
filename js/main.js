@@ -335,7 +335,7 @@ const init = function () {
 
                 const resultSearch = data.filter(function (item) {
                   const name = item.name.toLowerCase();
-                  return item.name.includes(value.toLowerCase());
+                  return name.includes(value.toLowerCase());
                 })
 
                 containerPromo.classList.add('hide');
